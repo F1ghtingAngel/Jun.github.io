@@ -3,18 +3,11 @@
 Hello,I'm Lv Jijun,a student in HUST.
 
 #### Email  
-<code>XX@XX.XX</code>  
-<code>XX@XX.XX</code>
+<code>U202412878@hust.edu</code>  
+<code>1359193143@qq.com</code>
 
 #### Education  
-**XX University**, Master of XX (XX – XX)  
-• GPA: XX/XX  
-
-**XX University**, Exchange student <br>  
-• As a XX, represented my college as an outstanding student for a XX exchange program.  
-
-**XX University**, Honours Bachelor of XX (XX – XX)  
-• GPA: XX/XX (top XX%)  
+**Huazhong University of Science and Technology**
 
 #### Research Interests  
-XX, XX, XX, XX.
+Marine Engineering
