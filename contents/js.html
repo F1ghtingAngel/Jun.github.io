@@ -1,0 +1,85 @@
+<html>
+<body bgcolor=skyblue>
+<script LANGUAGE="JavaScript">
+
+    todayDate = new Date();
+    date = todayDate.getDate();
+    month= todayDate.getMonth() +1;
+    year= todayDate.getYear();
+    document.write("<center><font color='#FF00FF' size=7><b>")
+    document.write("今天是")
+    document.write("<br>")
+    if(navigator.appName == "Netscape")
+    {
+        document.write(1900+year);
+        document.write("年");
+        document.write(month);
+        document.write("月");
+        document.write(date);
+        document.write("日");
+        document.write("<br>")
+    }
+    if(navigator.appVersion.indexOf("MSIE") != -1)
+    {
+        document.write(year);
+        document.write("年");
+        document.write(month);
+        document.write("月");
+        document.write(date);
+        document.write("日");
+        document.write("<br>")
+    }
+    
+    if (todayDate.getDay() == 5) document.write("星期五")
+    if (todayDate.getDay() == 6) document.write("星期六")
+    if (todayDate.getDay() == 0) document.write("星期日")
+    if (todayDate.getDay() == 1) document.write("星期一")
+    if (todayDate.getDay() == 2) document.write("星期二")
+    if (todayDate.getDay() == 3) document.write("星期三")
+    if (todayDate.getDay() == 4) document.write("星期四")
+    var mess1="";
+document.write("<center><font color='#0000FF' size=4><b>")
+day = new Date( )
+hr = day.getHours( )
+if (( hr >= 0 ) && (hr <= 4 ))
+mess1="深夜了，注意身体,该休息了！"
+if (( hr >= 4 ) && (hr < 7))
+mess1="清晨好，这麽早就上网呀？！ "
+if (( hr >= 7 ) && (hr < 12))
+mess1="早上好，一天之际在于晨，又是美好的一天！"
+if (( hr >= 12) && (hr <= 13))
+mess1="该吃午饭啦！有什麽好吃的？"
+if (( hr >= 13) && (hr <= 17))
+mess1="外面的天气很热吧?！心静自然凉！ "
+if (( hr >= 17) && (hr <= 18))
+mess1="太阳落山了！快看看夕阳吧！"
+if ((hr >= 18) && (hr <= 19))
+mess1="吃过晚饭了吗？"
+if ((hr >= 19) && (hr <= 23))
+mess1="一天过的可真快！今天过的好吗？"
+document.write(mess1)
+document.write("</b></font></center>")
+        // 弹出对话框
+        alert('欢迎来到佳骏的小世界！');
+        // 改变屏幕背景色
+        document.body.style.backgroundColor ='pink';
+
+
+        // 获取当前时间
+        const now = new Date();
+        const hours = now.getHours();
+        const minutes = now.getMinutes();
+        const seconds = now.getSeconds();
+
+        // 创建一个段落元素来显示时间
+        const timeElement = document.createElement('p');
+        timeElement.textContent = `当前时间是：${hours}:${minutes}:${seconds}`;
+        timeElement.style.color='purple';
+        timeElement.style.fontSize='80';
+        
+
+
+        // 将时间段落添加到页面中
+        document.body.appendChild(timeElement);
+    </script>
+</html>
